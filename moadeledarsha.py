@@ -1,0 +1,5 @@
+b=input("insert your dars :")
+a1=open(f"project/{b}.py","r")
+data=a1.read()
+print(data)
+a1.close()
